@@ -1,3 +1,4 @@
+echo ""
 echo "/////////////////// DEVAFORM //////////////////"
 echo "Completed installing Ruby (Ruby on Rails)"
 echo ""

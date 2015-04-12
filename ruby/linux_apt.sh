@@ -1,3 +1,6 @@
+echo "/////////////////// DEVAFORM //////////////////"
+echo "Starting Installation of Ruby on Rails for Linux with apt-get"
+
 sudo apt-get update
 sudo apt-get upgrade
 
@@ -14,15 +17,20 @@ sudo apt-get install libyaml-dev
 sudo apt-get install libffi-dev
 sudo apt-get install build-essential
 
-sudo gem install rvm
-sudo gem install bundler
-sudo gem install nokogiri
-sudo gem install sqlite3
-sudo gem install rails
-sudo gem install railties
-sudo gem install executable-hooks
-sudo gem install gem-wrappers
-sudo gem install rubygems-bundler
+sudo gem install rvm --no-ri --no-rdoc
+sudo gem install bundler --no-ri --no-rdoc
+sudo gem install nokogiri --no-ri --no-rdoc
+sudo gem install sqlite3 --no-ri --no-rdoc
+sudo gem install rails --no-ri --no-rdoc
+sudo gem install railties --no-ri --no-rdoc
+sudo gem install executable-hooks --no-ri --no-rdoc
+sudo gem install gem-wrappers --no-ri --no-rdoc
+sudo gem install rubygems-bundler --no-ri --no-rdoc
 
-sudo apt-get install subversion
-sudo apt-get install git
+
+echo "/////////////////// DEVAFORM //////////////////"
+echo "Completed installing Ruby (Ruby on Rails)"
+echo ""
+echo "You should be all set up but"
+echo "Please end this instance of your terminal" 
+echo "and start a new one for good measure"

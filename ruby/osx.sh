@@ -23,75 +23,75 @@ ruby -v
 gem update --system
 
 #Installing Dependencies
-gem install actionmailer
-gem install actionpack
-gem install actionview
-gem install activejob
-gem install activemodel
-gem install activerecord
-gem install activesupport
-gem install arel
-gem install bigdecimal
-gem install binding_of_caller
-gem install builder
-gem install bundler
-gem install bundler-unload
-gem install byebug
-gem install coffee-script
-gem install coffee-script-source
-gem install columnize
-gem install debug_inspector
-gem install erubis
-gem install execjs
-gem install executable-hooks
-gem install gem-wrappers
-gem install globalid
-gem install hike
-gem install i18n
-gem install inspector
-gem install io-console
-gem install jbuilder
-gem install json
-gem install loofah
-gem install mail
-gem install mime-types
-gem install mini_portile
-gem install minitest
-gem install multi_json
-gem install mysql2
-gem install nokogiri
-gem install power_assert
-gem install psych
-gem install rack
-gem install rack-test
-gem install railties
-gem install rake
-gem install rdoc
-gem install rubygems-bundler
-gem install rubygems-update
-gem install sass
-gem install sdoc
-gem install spring
-gem install sprockets
-gem install sqlite3
-gem install test-unit
-gem install thor
-gem install thread_safe
-gem install tilt
-gem install turbolinks
-gem install tzinfo
-gem install uglifier
-gem install web-console
+gem install actionmailer --no-ri --no-rdoc
+gem install actionpack --no-ri --no-rdoc
+gem install actionview --no-ri --no-rdoc
+gem install activejob --no-ri --no-rdoc
+gem install activemodel --no-ri --no-rdoc
+gem install activerecord --no-ri --no-rdoc
+gem install activesupport --no-ri --no-rdoc
+gem install arel --no-ri --no-rdoc
+gem install bigdecimal --no-ri --no-rdoc
+gem install binding_of_caller --no-ri --no-rdoc
+gem install builder --no-ri --no-rdoc
+gem install bundler --no-ri --no-rdoc
+gem install bundler-unload --no-ri --no-rdoc
+gem install byebug --no-ri --no-rdoc
+gem install coffee-script --no-ri --no-rdoc
+gem install coffee-script-source --no-ri --no-rdoc
+gem install columnize --no-ri --no-rdoc
+gem install debug_inspector --no-ri --no-rdoc
+gem install erubis --no-ri --no-rdoc
+gem install execjs --no-ri --no-rdoc
+gem install executable-hooks --no-ri --no-rdoc
+gem install gem-wrappers --no-ri --no-rdoc
+gem install globalid --no-ri --no-rdoc
+gem install hike --no-ri --no-rdoc
+gem install i18n --no-ri --no-rdoc
+gem install inspector --no-ri --no-rdoc
+gem install io-console --no-ri --no-rdoc
+gem install jbuilder --no-ri --no-rdoc
+gem install json --no-ri --no-rdoc
+gem install loofah --no-ri --no-rdoc
+gem install mail --no-ri --no-rdoc
+gem install mime-types --no-ri --no-rdoc
+gem install mini_portile --no-ri --no-rdoc
+gem install minitest --no-ri --no-rdoc
+gem install multi_json --no-ri --no-rdoc
+gem install mysql2 --no-ri --no-rdoc
+gem install nokogiri --no-ri --no-rdoc
+gem install power_assert --no-ri --no-rdoc
+gem install psych --no-ri --no-rdoc
+gem install rack --no-ri --no-rdoc
+gem install rack-test --no-ri --no-rdoc
+gem install railties --no-ri --no-rdoc
+gem install rake --no-ri --no-rdoc
+gem install rdoc --no-ri --no-rdoc
+gem install rubygems-bundler --no-ri --no-rdoc
+gem install rubygems-update --no-ri --no-rdoc
+gem install sass --no-ri --no-rdoc
+gem install sdoc --no-ri --no-rdoc
+gem install spring --no-ri --no-rdoc
+gem install sprockets --no-ri --no-rdoc
+gem install sqlite3 --no-ri --no-rdoc
+gem install test-unit --no-ri --no-rdoc
+gem install thor --no-ri --no-rdoc
+gem install thread_safe --no-ri --no-rdoc
+gem install tilt --no-ri --no-rdoc
+gem install turbolinks --no-ri --no-rdoc
+gem install tzinfo --no-ri --no-rdoc
+gem install uglifier --no-ri --no-rdoc
+gem install web-console --no-ri --no-rdoc
 
 #intalling rails
-gem install coffee-rails
-gem install jquery-rails
-gem install rails
-gem install rails-deprecated_sanitizer
-gem install rails-dom-testing
-gem install rails-html-sanitizer
-gem install sass-rails
-gem install sprockets-rails
+gem install coffee-rails --no-ri --no-rdoc
+gem install jquery-rails --no-ri --no-rdoc
+gem install rails --no-ri --no-rdoc
+gem install rails-deprecated_sanitizer --no-ri --no-rdoc
+gem install rails-dom-testing --no-ri --no-rdoc
+gem install rails-html-sanitizer --no-ri --no-rdoc
+gem install sass-rails --no-ri --no-rdoc
+gem install sprockets-rails --no-ri --no-rdoc
 
 #gems pristine
 gem update
@@ -100,6 +100,16 @@ gem pristine --all
 
 rbenv rehash
 rails -v
+ruby -v
 
 #Should already have SQLite3 through XCode command line toosl
 #Add code for DB of choice here.
+
+
+##Echo completion notes
+echo "/////////////////// DEVAFORM //////////////////"
+echo "Completed installing Ruby (Ruby on Rails)"
+echo ""
+echo "You should be all set up but"
+echo "Please end this instance of your terminal" 
+echo "and start a new one for good measure"

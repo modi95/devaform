@@ -100,6 +100,7 @@ gem pristine --all
 
 rbenv rehash
 rails -v
+ruby -v
 
 #Should already have SQLite3 through XCode command line toosl
 #Add code for DB of choice here.

@@ -8,6 +8,12 @@ sudo apt-get install libssl-dev
 sudo apt-get install libyaml-dev
 sudo apt-get install libffi-dev
 sudo apt-get install build-essential
+sudo apt-get install git-core
+sudo apt-get install curl
+sudo apt-get install libreadline-dev
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install python-software-properties
+sudo apt-get install libffi-dev
 
 #installing dependency gems
 sudo gem install actionmailer --no-ri --no-rdoc
@@ -53,3 +59,8 @@ sudo gem install rails-dom-testing --no-ri --no-rdoc
 sudo gem install rails-html-sanitizer --no-ri --no-rdoc
 sudo gem install railties --no-ri --no-rdoc
 
+
+sudo gem update
+sudo gem pristine --all
+
+rbenv rehash

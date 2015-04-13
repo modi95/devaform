@@ -14,3 +14,5 @@ gem update --system
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.$1
 echo 'eval "$(rbenv init -)"' >> ~/.$1
+
+rbenv rehash

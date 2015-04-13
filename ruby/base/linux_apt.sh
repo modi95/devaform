@@ -1,6 +1,6 @@
 if [ -z $1 ]
 	then
-		set -- "bashrc"
+		set -- "profile"
 fi
 
 sudo apt-get update

@@ -16,3 +16,5 @@ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.$1
 echo 'eval "$(rbenv init -)"' >> ~/.$1
 
 rbenv rehash
+
+echo "DEVAFORM///////// Completed installing Ruby (lang)"

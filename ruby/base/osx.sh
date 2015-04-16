@@ -24,3 +24,5 @@ gem update --system
 
 rbenv rehash
 rails -v
+
+echo "DEVAFORM///////// Completed installing Ruby (lang)"

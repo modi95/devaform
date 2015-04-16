@@ -64,3 +64,5 @@ sudo gem update
 sudo gem pristine --all
 
 rbenv rehash
+
+echo "DEVAFORM///////// Completed installing Ruby (Ruby on Rails)"

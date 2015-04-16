@@ -1,6 +1,9 @@
 import urllib
 import os
 
+print ("/////////////////// DEVAFORM //////////////////")
+print ("// Terraforming Your Developer Environment ///")
+
 smooth = 0
 script = urllib.urlopen("http://www.akmodi.com/devaform/scripts/test.sh")
 last_command = ""
@@ -17,3 +20,7 @@ if smooth != 0:
 	print ("Script failed at:")
 	print ("  line " + str(last_number))
 	print ("  ->" + last_command)
+
+print ("/////////////////// DEVAFORM //////////////////")
+print ("////// Required Terraforming Completed ////////")
+print ("\n You should be all set-up now. But consider rebooting for good measure")

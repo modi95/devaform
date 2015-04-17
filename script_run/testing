@@ -1,2 +1,5 @@
-import sys
-print sys.argv[1]
+echo "starting this script"
+###this line will just be printed
+##_input
+echo
+echo "done"

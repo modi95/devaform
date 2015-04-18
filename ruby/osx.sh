@@ -1,4 +1,4 @@
-#Ruby install log
+#Ruby install
 
 #Install XCode dev tools
 xcode-select --install

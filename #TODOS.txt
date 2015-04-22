@@ -1,0 +1,21 @@
+#TODOS.txt
+
+Install JVM if not available
+wget https://support.apple.com/downloads/DL1572/en_US/JavaForOSX2014-001.dmg
+
+Check about installing Applications without Gui
+	A lot of them just involve picking up an icon
+	and dragging them into the applications folder
+	Some of them also require unpackaging.
+
+Is nginx something we want to install for the user?
+
+Known Issues:
+
+	rbenv mac does not change default ruby version
+	Okay... I changed it. Not sure how
+	Need to look into this.
+
+Instead of going for a shell script, it might be nicer to have a script iteratively execute
+the shell script. This should make error checking and getting help easeir.
+

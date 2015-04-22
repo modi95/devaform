@@ -1,3 +1,10 @@
+#Author - Abhishek Modi
+
+#This is being built as a pre-processor for shell scripts
+#as part of Devaform.
+#Devaform is being developed as part of CS 242 at the 
+#University of Illinois at Urbana - Champaign
+
 import urllib
 import sys
 import os

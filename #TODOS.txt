@@ -21,3 +21,8 @@ the shell script. This should make error checking and getting help easeir.
 
 Start developing a nice front end fo this.
 This needs to be done about 48 hours from now.
+
+
+We're at t-4 days to the end of CS 242. 
+There are also a bunch of mid terms between now and then.
+This should be fun!

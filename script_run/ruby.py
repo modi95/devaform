@@ -13,7 +13,7 @@ print ("/////////////////// DEVAFORM //////////////////")
 print ("// Terraforming Your Developer Environment ///")
 
 smooth = 0
-script = urllib.urlopen("http://www.akmodi.com/devaform/script_run/ruby/rails/linux_apt.sh")
+script = urllib.urlopen("http://www.akmodi.com/devaform/script_run/ruby/base/linux_apt.sh")
 #script = open("testing", "r")
 #script = urllib.urlopen(sys.argv[1])
 last_command = ""

@@ -1,9 +1,5 @@
 ## Devaform: Ruby Base
 
-if [ -z $1 ] then
-	set -- "profile"
-fi
-
 sudo apt-get update
 sudo apt-get upgrade
 

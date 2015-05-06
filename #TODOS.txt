@@ -26,3 +26,7 @@ This needs to be done about 48 hours from now.
 We're at t-4 days to the end of CS 242. 
 There are also a bunch of mid terms between now and then.
 This should be fun!
+
+242 is done now.
+Time to start restructuring this as an actual project.
+

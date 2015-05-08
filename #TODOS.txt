@@ -30,3 +30,5 @@ This should be fun!
 242 is done now.
 Time to start restructuring this as an actual project.
 
+Spring 2015 Finals start today.
+This project is essentially going on hold for the next week.
